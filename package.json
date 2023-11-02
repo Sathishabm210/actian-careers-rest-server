@@ -1,0 +1,34 @@
+{
+  "name": "simple-rest-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config jest.config.js",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sathishabm210/simple-rest-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sathishabm210/simple-rest-server/issues"
+  },
+  "homepage": "https://github.com/Sathishabm210/simple-rest-server#readme",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "body-parser": "^1.20.2",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
