@@ -32,7 +32,7 @@ npm run test
 ```
 
 # API Endpoints
-**GET /api/careers?department={departmentName}** Returns list of current job openings for the department from actian careers page.
+**GET /api/careers?department={departmentName}** Returns list of current job openings for the department from actian careers page details.
 
 ## Sample Request and Response
 **Request: URL**
